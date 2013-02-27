@@ -1,5 +1,8 @@
 <?php
 
-echo "version 1";
+echo "header";
+echo "content";
+echo "footer";
+
 
 ?>
