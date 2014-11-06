@@ -21,15 +21,11 @@ class VoitureTest extends PHPUnit_Framework_TestCase {
         $this->assertTrue($reservoir);
     }
 
-
-
-    public function testModifierCarburant() {
+    public function testNombreDePortes() {
         $myVoiture = new Voiture();
-        $myVoiture->niveau_carburant = 0;
-
-        $myVoiture->modifierNbPortes(0);
+        $myVoiture->modifierNbPortes(1);
 
         $this->assertGreaterThan(0,$myVoiture->nombre_portes);
     }
 }
- 
+
